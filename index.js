@@ -22,6 +22,6 @@ function deepestChild(){
       var myChildren = myDiv[0].children
       if (!myChildren.length) {
         return myDiv
-      } 
+      }
   }
 }
