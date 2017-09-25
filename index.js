@@ -21,6 +21,6 @@ function deepestChild(){
   Chld = myDiv.children[0]
     while (Chld.length){
       Chld = Chld[0]
-      if (!Chld.length)   return Chld 
+      if (!Chld.length)   return Chld
   }
 }
