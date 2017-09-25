@@ -20,7 +20,10 @@ function deepestChild(){
   var myChildren = []
   while (noMoreChildren == 0 ){
       var myChildren = myDiv.children
-      if (myChildren.length == 0) return myDiv
-      myDiv = myChildren.children[0]
+      if (myChildren.length == 0) {
+        return myDiv
+      } else {
+        myDiv = myChildren.children[0]
+      }
   }
 }
