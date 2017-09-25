@@ -9,7 +9,7 @@ function increaseRankBy(n){
 
   for (let i = 0; i < lis.length; i++) {
     var myNumber = lis[i].innerHTML
-    myNumber.parseInt()
+    myNumber = myNumber * 1
     lis[i].innerHTML = (myNumber + n).toString()
   }
 }
